@@ -10,13 +10,8 @@ The acquisition of Sports Bar led to "data chaos," where inconsistent metrics an
 - Create a scalable solution that integrates the startup's Excel-based data into Atlon’s enterprise-grade Databricks environment.
 
 ## Architecture Diagram
-```mermaid
-graph LR
-    A[AWS S3 - Raw CSVs] --> B[Databricks Bronze - Raw Ingestion]
-    B --> C[Databricks Silver - Cleaning & Transformation]
-    C --> D[Databricks Gold - Aggregated Business Tables]
-    D --> E[Databricks SQL Dashboard / Genie AI]
-```
+
+![Architecture Overview](resources/project_architecture.png)
 
 ## End-to-End Data Flow
 1. **Data Ingestion**: Data is uploaded to an **AWS S3** bucket (Landing zone).
