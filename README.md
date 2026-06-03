@@ -1,4 +1,4 @@
-# Atlon & Sports Bar Data Integration Pipeline
+# Atlikon & Sports Bar Data Integration Pipeline
 
 ## Project Overview
 This project demonstrates an end-to-end data engineering solution for **Atlikon**, a sports equipment manufacturer that recently acquired a startup, **Sports Bar**. The primary goal was to resolve data fragmentation and inconsistencies between the two companies. By leveraging **Databricks** and the **Medallion Architecture**, I built a unified data platform that ingests raw data from AWS S3, cleans it through various stages, and provides aggregated analytics for supply chain forecasting and inventory planning.
